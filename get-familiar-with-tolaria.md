@@ -18,4 +18,5 @@ Use this checklist to explore Tolaria and learn how it works.
 - [ ] **Try** [[tolaria-ai]] — configure which agent to use, and `Cmd+K` then space for quick prompts.
 - [ ] **Try the** [[command-palette]] — to do more from your keyboard
 - [ ] **Check the** [[tolaria-bottom-bar]] — Git sync status, Pulse (git history), Claude Code indicator
+- [ ] **Learn how to use** [[multiple-vaults]] — keep separate vaults open in one graph
 - [ ] Mark this project as `status: done` when done

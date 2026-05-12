@@ -9,9 +9,11 @@ The bottom bar is Tolaria's status bar — more informational than interactive. 
 
 ### 📂 Vault selection
 
-By clicking on the vault bottom left you can change the active vault, open a new local folder, or create a new one by cloning a Git repo
+By clicking on the vault bottom left you can change the active vault, open a new local folder, create a new one by cloning a Git repo, or manage which vaults are included in your graph.
 
 ![CleanShot 2026-04-17 at 15.35.16@2x.png](attachments/1776432929539-CleanShot_2026-04-17_at_15.35.16_2x.png)
+
+When `Use multiple vaults at the same time` is enabled in Settings → Vaults, this menu shows checkboxes for the vaults Tolaria should load together. Included vaults appear in search, note lists, quick open, backlinks, and wikilink navigation. The selected vault still controls repository-specific actions such as commits, sync, saved views, and folder navigation.
 
 ### 🔄 Git Sync Status
 
