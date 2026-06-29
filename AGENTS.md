@@ -4,19 +4,19 @@ _organized: true
 ---
 # AGENTS.md — Tolaria Vault
 
-This is a [Tolaria](https://github.com/refactoringhq/tolaria) vault: a folder of Markdown files with YAML frontmatter forming a personal knowledge graph.
+这是一个 [Tolaria](https://github.com/refactoringhq/tolaria) vault：由带 YAML frontmatter 的 Markdown 文件组成的文件夹，构成个人知识图谱。
 
-Keep edits compatible with Tolaria's current conventions. Prefer small, human-readable changes over heavy restructuring.
+请保持编辑内容与 Tolaria 当前的约定兼容。优先采用小幅的、人类可读的改动，而非大规模重构。
 
-## Core conventions
+## 核心约定
 
-- One Markdown note per file.
-- The first H1 in the body is the preferred display title.
-- Legacy `title:` frontmatter is still read as a fallback when a note has no H1. Do not add it to new notes unless you are maintaining an older file.
-- Store note type in the `type:` frontmatter field.
-- Most notes live at the vault root as flat `.md` files. Type definitions live in `type/`. Saved views live in `views/`.
-- Any frontmatter field containing [[wikilinks]] is treated as a relationship. Common names include `Belongs to:`, `Related to:`, `Workspace:`, and custom relationship names.
-- Frontmatter properties that start with `_` are usually Tolaria-managed state. Leave them alone unless the user explicitly asks for them to change.
+- 每个文件一个 Markdown 笔记。
+- 正文中的第一个 H1 是首选的显示标题。
+- 当笔记没有 H1 时，旧版的 `title:` frontmatter 仍会作为回退读取。除非你在维护旧文件，否则不要将其添加到新笔记中。
+- 笔记类型存储在 `type:` frontmatter 字段中。
+- 大多数笔记以扁平的 `.md` 文件形式存放在 vault 根目录。类型定义存放在 `type/`。保存的视图存放在 `views/`。
+- 任何包含 [[wikilinks]] 的 frontmatter 字段都会被视为关系。常见的名称包括 `Belongs to:`、`Related to:`、`Workspace:` 以及自定义关系名称。
+- 以 `_` 开头的 frontmatter 属性通常是 Tolaria 管理的状态。除非用户明确要求更改，否则不要动它们。
 
 ## Notes
 
@@ -42,7 +42,7 @@ Body content in Markdown.
 
 ## Types
 
-Type definitions are regular notes stored in `type/`. Use `type: Type` for new ones:
+类型定义是存放在 `type/` 中的常规笔记。新的类型定义请使用 `type: Type`：
 
 ```yaml
 ---
@@ -59,17 +59,17 @@ template: |
 # Project
 ```
 
-Useful type metadata includes `icon`, `color`, `order`, `sidebar label`, `template`, `sort`, `view`, and `visible`.
+有用的类型元数据包括 `icon`、`color`、`order`、`sidebar label`、`template`、`sort`、`view` 和 `visible`。
 
 ## Wikilinks
 
-- [[filename]] or [[Note Title]] — link by filename or title
-- [[filename|display text]] — with custom display text
-- Works in frontmatter values and Markdown body
+- [[filename]] 或 [[Note Title]] — 通过文件名或标题链接
+- [[filename|display text]] — 带自定义显示文本
+- 在 frontmatter 值和 Markdown 正文中均可使用
 
 ## Views
 
-Saved views live in `views/*.yml` and are written as YAML:
+保存的视图存放在 `views/*.yml` 中，以 YAML 格式编写：
 
 ```yaml
 name: Active Projects
@@ -88,18 +88,18 @@ filters:
 
 ## Filenames
 
-Use kebab-case: `my-note-title.md`. One note per file.
+使用 kebab-case：`my-note-title.md`。每个文件一个笔记。
 
 ## What agents should do
 
-- Create and edit notes using the frontmatter and H1 conventions above.
-- Create and edit type documents in `type/`.
-- Add or modify relationships without breaking existing wikilinks.
-- Create and edit saved views in `views/`.
-- Update `AGENTS.md` only when the user asks for vault-level guidance changes.
+- 使用上述 frontmatter 和 H1 约定来创建和编辑笔记。
+- 在 `type/` 中创建和编辑类型文档。
+- 添加或修改关系时不要破坏现有的 wikilinks。
+- 在 `views/` 中创建和编辑保存的视图。
+- 仅当用户要求更改 vault 层面的指导时才更新 `AGENTS.md`。
 
 ## What agents should avoid
 
-- Do not infer note type from folders other than the dedicated `type/` directory for type definitions.
-- Do not silently overwrite an existing custom `AGENTS.md`.
-- Do not overwrite user-authored config or installation-specific app files unless the user explicitly asks.
+- 不要从 `type/` 目录（专门用于类型定义）以外的文件夹推断笔记类型。
+- 不要静默覆盖已有的自定义 `AGENTS.md`。
+- 除非用户明确要求，否则不要覆盖用户编写的配置或特定于安装的应用文件。

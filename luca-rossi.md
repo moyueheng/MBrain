@@ -6,8 +6,8 @@ related_to: "[[tolaria]]"
 ---
 # Luca Rossi
 
-That’s me 👋 I built [Tolaria](http://tolaria.md/) and I run [Refactoring](https://refactoring.fm), a newsletter, podcast and community about how to run great software engineering teams.
+那是我本人 👋 我开发了 [Tolaria](http://tolaria.md/)，同时运营着 [Refactoring](https://refactoring.fm)——一个关于如何打造优秀软件工程团队的新闻通讯、播客和社区。
 
-I built Tolaria to manage my own knowledge base of over 10,000 notes, accumulated in over 6 years of content creation.
+我构建 Tolaria 的初衷是为了管理自己超过 10,000 条笔记的知识库，这些笔记是在超过 6 年的内容创作过程中积累下来的。
 
-When I am not writing about software and productivity, I am improving Tolaria and the tools that support my workflow.
+当我不在写关于软件和生产力的文章时，我就在改进 Tolaria 以及支撑我工作流程的各种工具。

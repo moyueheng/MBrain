@@ -3,43 +3,43 @@ type: Note
 related_to: "[[tolaria]]"
 onboarding: 2
 ---
-# Sidebar
+# Sidebar（侧边栏）
 
-The sidebar is your primary navigation tool. It groups notes in different ways so you can find what you need quickly.
+Sidebar 是你的主导航工具。它以多种方式对笔记进行分组，帮助你快速找到所需内容。
 
-### 📥 Inbox
+### 📥 Inbox（收件箱）
 
-Notes that aren't *organized* yet.
+尚未被 *整理* 的笔记。
 
-This is inspired by [Tiago Forte](https://www.buildingasecondbrain.com/)'s concept of separating capture from organize. An “organized” note is a note that you know what you will do with. It may belong to a project, to a responsibility, a topic, or any concept related to how you organize work.
+这一设计受 [Tiago Forte](https://www.buildingasecondbrain.com/) 关于"捕获与整理分离"的理念启发。所谓"已整理"的笔记，是指你已经清楚它该归属何处：可能属于一个项目、一项职责、一个主题，或任何与你工作组织方式相关的概念。
 
-Review your inbox (e.g.) weekly to keep it from growing too large. You can disable the Inbox in Settings `cmd+,`) if you don’t like this workflow.
+建议每周回顾一次 Inbox，避免堆积过多。如果你不喜欢这种工作流，可以在设置（`cmd+,`）中关闭 Inbox。
 
-You can flag a note as *organized* by clicking on the “circle task” icon in the breadcrumbs bar, or with `cmd+e`.
+你可以点击面包屑栏中的"圆圈任务"图标，或使用 `cmd+e` 把笔记标记为 *已整理*。
 
-### 🗃️ All Notes
+### 🗃️ All Notes（全部笔记）
 
-As the name suggests, that’s the entire vault — every single note.
+顾名思义，整个 vault 中的每一条笔记。
 
-### 📦 Archive
+### 📦 Archive（归档）
 
-A permanent home for notes you don't want to delete but don't want to see regularly. Archive aggressively to keep your vault clean. Archived notes still appear in search results, but not in sidebar sections.
+为那些你不想删除、又不想经常看到的笔记准备的永久归宿。大胆归档，保持 vault 整洁。归档的笔记仍会出现在搜索结果中，但不会出现在 sidebar 各区段里。
 
-### ⭐ Favorites
+### ⭐ Favorites（收藏）
 
-Notes you've manually pinned to keep them top-of-mind. Great for active projects, journal entries, or reference notes you access frequently.
+你手动置顶、希望常驻视野的笔记。适合用于活跃项目、日志条目或频繁访问的参考笔记。
 
-You can reorder them by dragging them in the sidebar.
+你可以在 sidebar 中拖动来调整它们的顺序。
 
-Toggle a favorite note from the ⭐ button in the breadcrumbs bar, or with `cmd+d` .
+通过面包屑栏中的 ⭐ 按钮，或使用 `cmd+d` 即可切换收藏状态。
 
-### 🔍 Views
+### 🔍 Views（视图）
 
-You can create custom views that filter notes by complex, nested criteria. The view editor fetches all available properties, plus allows for some tricks (like regexes and natural language dates)
+你可以创建自定义视图，用复杂、嵌套的条件过滤笔记。视图编辑器会抓取所有可用属性，还支持一些进阶玩法（如正则表达式和自然语言日期）。
 
 ![CleanShot 2026-04-16 at 22.02.51@2x.png](attachments/1776369786040-CleanShot_2026-04-16_at_22.02.51_2x.png)
 
-Views are simple yaml files that get stored in the views folder (e.g. [[views/active-projects.yml]]). They can be edited easily and even created by the AI 👇
+Views 本质上是简单的 YAML 文件，存放在 views 文件夹中（例如 [[views/active-projects.yml]]）。它们易于编辑，甚至可以由 AI 直接创建 👇
 
 ```yaml
 name: Active Projects
@@ -61,22 +61,22 @@ filters:
       value: in 1 week
 ```
 
-### 🧩 Types
+### 🧩 Types（类型）
 
-The main organizational device in Tolaria. Each note has a type, which by default is [[note]].
+Tolaria 中最主要的组织手段。每条笔记都有一个类型，默认是 [[note]]。
 
-Each type can have its own icon and color, which you can change by right-clicking on it in the sidebar, or manually changing it in the properties or frontmatter of the type file.
+每种类型都可以有自己的图标和颜色。你可以在 sidebar 中右键点击它来修改，也可以直接编辑该类型文件的属性或 frontmatter。
 
-Types are simply stored as markdown files, like [[topic]], or [[project]].
+Types 就是以 Markdown 文件的形式存储，例如 [[topic]] 或 [[project]]。
 
-Click any type on the sidebar to see all notes of that type in the note list.
+在 sidebar 中点击任意类型，即可在笔记列表中查看该类型的所有笔记。
 
-### 📂 Folders
+### 📂 Folders（文件夹）
 
-Tolaria stores notes in the root of the vault by default, but also scans your vault’s folder structure, which you can navigate at the bottom of the sidebar.
+Tolaria 默认把笔记存放在 vault 根目录，但也会扫描 vault 的文件夹结构，你可以在 sidebar 底部导航它们。
 
-Folders are listed last because they are a secondary organization method—not the primary one.
+Folders 被排在最后，因为它们是次要的组织方式，而不是主要方式。
 
-### 🗑️ Trash
+### 🗑️ Trash（回收站）
 
-There is no trash bin, when you delete a note, it’s gone — but your git history is your safety net. You can always recover deleted notes from git if needed.
+没有回收站。当你删除一条笔记时，它就没了 —— 但 Git 历史是你的安全网。必要时，你总能从 Git 中恢复已删除的笔记。

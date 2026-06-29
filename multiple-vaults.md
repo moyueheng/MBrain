@@ -3,20 +3,20 @@ type: Note
 related_to: "[[tolaria]]"
 onboarding: 6.5
 ---
-# Multiple Vaults
+# 多 Vault
 
-Tolaria can manage more than one vault at the same time. This is useful when you want to keep separate folders or Git repositories, but still search and navigate across them as one knowledge graph.
+Tolaria 可以同时管理多个 vault。当你希望保持独立的文件夹或 Git 仓库，同时又想把它们作为一个统一的知识图谱来搜索和导航时，这个功能非常有用。
 
-To turn it on:
+开启步骤：
 
-1. Open Settings.
-2. Go to Vaults.
-3. Enable `Use multiple vaults at the same time`.
-4. Open the bottom-left vault menu.
-5. Check the vaults you want to include in the unified graph.
+1. 打开 Settings。
+2. 进入 Vaults。
+3. 启用 `Use multiple vaults at the same time`。
+4. 打开左下角的 vault 菜单。
+5. 勾选你想要纳入统一图谱的 vault。
 
-Included vaults appear together in note lists, search, quick open, backlinks, and wikilink navigation. When a note could be ambiguous, Tolaria shows a small vault label so you know where it lives.
+被纳入的 vault 会同时出现在笔记列表、搜索、快速打开、反向链接和 wikilink 导航中。当某个笔记可能存在歧义时，Tolaria 会显示一个小的 vault 标签，让你知道它属于哪里。
 
-Each vault keeps its own files and Git repository. Commits, sync, saved views, folder navigation, and vault repair actions still belong to the selected vault. Use `Manage vaults` to rename vaults, choose colors, and set the default vault for new notes.
+每个 vault 仍然保留各自的文件和 Git 仓库。提交、同步、保存的视图、文件夹导航以及 vault 修复操作仍然归属于当前选中的 vault。使用 `Manage vaults` 可以重命名 vault、选择颜色，并设置新建笔记的默认 vault。
 
-Cross-vault wikilinks use the target vault's stable alias when Tolaria needs one, such as `[[team/projects/alpha]]`. Links inside the same vault stay simple.
+当 Tolaria 需要跨 vault 的 wikilink 时，会使用目标 vault 的稳定别名，例如 `[[team/projects/alpha]]`。同一个 vault 内部的链接则保持简洁。

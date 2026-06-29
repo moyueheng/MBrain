@@ -3,40 +3,40 @@ type: Note
 related_to: "[[tolaria]]"
 onboarding: 3
 ---
-# Note List
+# 笔记列表
 
-The note list shows the subset of notes selected by the current sidebar section. For example, clicking "Types → Project" shows all your Project notes.
+笔记列表显示当前 sidebar 区段所选中的那部分笔记。例如，点击 "Types → Project" 会显示所有的 Project 笔记。
 
-### ⬇️ Sorting
+### ⬇️ 排序
 
-You can sort the note list by any note property (they get dynamically loaded from the notes), plus file properties like modified and creation time.
+你可以按任意笔记属性（属性会从笔记中动态加载）对笔记列表进行排序，也可以按文件属性（如修改时间和创建时间）排序。
 
-Your choice will be remembered for that specific section.
+你的选择会被记住，仅对当前区段生效。
 
 ![CleanShot 2026-04-16 at 21.58.56@2x.png](attachments/1776369547761-CleanShot_2026-04-16_at_21.58.56_2x.png)
 
-### 💅 Display Properties
+### 💅 显示属性
 
-You can customize which properties appear as columns in the note list. This lets you see important metadata at a glance without opening individual notes.
+你可以自定义哪些属性作为列显示在笔记列表中，这样无需打开单条笔记就能快速浏览重要的元数据。
 
 ![CleanShot 2026-04-16 at 21.56.07@2x.png](attachments/1776369416105-CleanShot_2026-04-16_at_21.56.07_2x.png)
 
-For properties that are URLs or other notes, you can open them directly from the note list with `cmd+click`
+对于 URL 或指向其他笔记的属性，你可以在笔记列表中通过 `cmd+click` 直接打开它们。
 
-### 🔍 Search
+### 🔍 搜索
 
-You can perform instant keyword search within the current list of notes to filter down to what you need. This searches across all the notes content.
+你可以在当前笔记列表内进行即时关键词搜索，快速过滤出需要的内容。搜索会覆盖所有笔记的全部内容。
 
-### 🧭 Neighborhood mode
+### 🧭 Neighborhood mode（邻域模式）
 
-Neighborhood mode pivots the note list around one note instead of a whole section. The selected note stays pinned at the top, and the rest of the list reorganizes into groups based on the note’s relationships with other notes.
+Neighborhood mode 会以某一条笔记（而不是整个区段）为中心重新组织笔记列表。被选中的笔记固定在顶部，其余列表基于该笔记与其他笔记的关系重新分组成。
 
-Use it when you want to move through related projects, people, or topics without jumping back to the sidebar. To enter Neighborhood mode, `cmd+click` a note in the list, or focus a note and press `cmd+enter`. You can use `Esc` to go back to the previous neighborhood, or to leave the mode altogether
+当你想在相关的项目、人物或主题之间游走、而又不想跳回 sidebar 时，这个模式很好用。要进入 Neighborhood mode，可以在列表中 `cmd+click` 某条笔记，或选中笔记后按 `cmd+enter`。使用 `Esc` 可以返回上一个邻域，或完全退出该模式。
 
 ![CleanShot 2026-04-20 at 10.17.53@2x.png](attachments/1776673161755-CleanShot_2026-04-20_at_10.17.53_2x.png)
 
-### ➕ Creating notes
+### ➕ 创建笔记
 
-The + button in the note list creates a new note of the current type. If you're viewing a type-filtered section, the new note automatically gets that type.
+笔记列表中的 + 按钮会以当前类型创建一条新笔记。如果你正在查看一个按类型过滤的区段，新笔记会自动获得该类型。
 
-You can also create a new note anywhere with `cmd+n` or from the [[command-palette]]
+你也可以随时通过 `cmd+n` 或从 [[command-palette]] 创建新笔记。

@@ -146,13 +146,13 @@ _sheet:
     I10:
       wrap_text: true
 ---
-Workstream,Owner,Status,June,July,August,Q3 total,Trend,Related note
-Editor polish,[[luca-rossi]],Active,4,6,8,=SUM(D2:F2),=F2-D2,[[tolaria-editor]]
-Spreadsheet demo,[[luca-rossi]],Active,1,2,4,=SUM(D3:F3),=F3-D3,Try formulas and right-click formatting
-AI workflows,[[luca-rossi]],Review,2,3,5,=SUM(D4:F4),=F4-D4,[[tolaria-ai]]
-Vault onboarding,[[luca-rossi]],Active,3,4,6,=SUM(D5:F5),=F5-D5,[[get-familiar-with-tolaria]]
-Total planned,,,=SUM(D2:D5),=SUM(E2:E5),=SUM(F2:F5),=SUM(G2:G5),=F6-D6,
+工作流,负责人,状态,June,July,August,Q3 合计,趋势,相关笔记
+编辑器打磨,[[luca-rossi]],Active,4,6,8,=SUM(D2:F2),=F2-D2,[[tolaria-editor]]
+电子表格演示,[[luca-rossi]],Active,1,2,4,=SUM(D3:F3),=F3-D3,尝试公式和右键格式化
+AI 工作流,[[luca-rossi]],Review,2,3,5,=SUM(D4:F4),=F4-D4,[[tolaria-ai]]
+Vault 引导,[[luca-rossi]],Active,3,4,6,=SUM(D5:F5),=F5-D5,[[get-familiar-with-tolaria]]
+合计计划,,,=SUM(D2:D5),=SUM(E2:E5),=SUM(F2:F5),=SUM(G2:G5),=F6-D6,
 ,,,,,,,,
-Average per workstream,,,=AVERAGE(D2:D5),=AVERAGE(E2:E5),=AVERAGE(F2:F5),=AVERAGE(G2:G5),=AVERAGE(H2:H5),
-Completion share,,,=D6/$G$6,=E6/$G$6,=F6/$G$6,=G6/$G$6,,
-Launch health,,,,,,"=IF(G6>=40,""On track"",""Review"")",,Edit a number above and watch formulas recalculate
+每个工作流平均,,,=AVERAGE(D2:D5),=AVERAGE(E2:E5),=AVERAGE(F2:F5),=AVERAGE(G2:G5),=AVERAGE(H2:H5),
+完成占比,,,=D6/$G$6,=E6/$G$6,=F6/$G$6,=G6/$G$6,,
+发布健康度,,,,,,"=IF(G6>=40,""On track"",""Review"")",,编辑上方的数字，观察公式自动重新计算

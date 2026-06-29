@@ -3,52 +3,52 @@ type: Note
 related_to: "[[tolaria]]"
 onboarding: 4
 ---
-# Editor
+# 编辑器
 
-The editor is where you write and edit your notes. Tolaria supports two modes:
+编辑器是你编写和编辑笔记的地方。Tolaria 支持两种模式：
 
-### WYSIWYG Mode
+### WYSIWYG Mode（所见即所得模式）
 
-The default experience. Similar to Notion — type naturally and see formatted output.
+默认体验。类似 Notion —— 自然输入，实时看到格式化效果。
 
-Supports slash commands for quick formatting, live markdown rendering, inline previews, drag and drop of images, `inline code`, and so on.
+支持斜杠命令快速排版、实时 Markdown 渲染、内联预览、图片拖拽、`inline code`（行内代码）等。
 
-- List **item** 1
-  - Nested *italic item*
-1. **Numbered item** in bold
-2. Numbered second item
+- 列表 **item** 1
+  - 嵌套的 *斜体 item*
+1. **加粗的有序 item**
+2. 第二个有序 item
 
-> Quote from a wise author
+> 某位智者的引言
 
-- [ ] Task 1
-- [ ] Task 2
+- [ ] 任务 1
+- [ ] 任务 2
 
 ```javascript
 (param) => (return 3*2) /* code block */
 ```
 
-### Raw Mode
+### Raw Mode（原始模式）
 
-Shows the actual file characters. Access it with `Cmd+/` or the code button in the breadcrumb bar. Useful when you need precise control over markdown syntax.
+显示文件的真实字符。使用 `Cmd+/` 或面包屑栏中的代码按钮切换。当你需要对 Markdown 语法进行精确控制时很有用。
 
-### Filename Display
+### 文件名显示
 
-The note's filename is always visible at the top of the editor. This keeps you aware of how the note will be named and linked.
+笔记的文件名始终显示在编辑器顶部，让你随时了解笔记的命名和链接方式。
 
-### H1-to-Filename Sync
+### H1 同步文件名
 
-The first H1 heading in your document automatically sets the filename. After the first sync, changes to the H1 require a manual sync—a refresh button appears next to the title to sync them manually.
+文档中的第一个 H1 标题会自动设置为文件名。首次同步后，修改 H1 需要手动同步 —— 标题旁会出现刷新按钮，用于手动同步。
 
-You can turn off the H1-to+filename sync in the settings
+可以在设置中关闭 H1 与文件名的同步。
 
-### Wikilinks
+### Wikilinks（双向链接）
 
-Type `[[` to trigger autocomplete from your entire vault. This creates links to other notes, enabling the knowledge graph.
+输入 `[[` 即可触发整个 vault 的自动补全。这会创建指向其他笔记的链接，从而构建知识图谱。
 
-Wikilinks also auto-update if the filename changes.
+当文件名变化时，wikilinks 也会自动更新。
 
-![BlockNote image](attachments/1776508281809-CleanShot_2026-04-18_at_12.30.44_2x.png)
+![BlockNote 图片](attachments/1776508281809-CleanShot_2026-04-18_at_12.30.44_2x.png)
 
-### Breadcrumb Bar Actions
+### 面包屑栏操作
 
-The breadcrumb bar (above the editor) is the hub for note-level actions: favoriting, marking organized, switching editor modes, viewing git diff, and accessing properties.
+面包屑栏（编辑器上方）是笔记级操作的枢纽：收藏、标记为已整理、切换编辑器模式、查看 git diff、访问属性等。

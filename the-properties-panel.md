@@ -3,35 +3,35 @@ type: Note
 related_to: "[[tolaria]]"
 onboarding: 5
 ---
-# Properties Panel
+# 属性面板
 
-The properties panel shows and edits a note's frontmatter in a user-friendly way.
+属性面板以友好的方式展示和编辑笔记的 frontmatter。
 
-### Type-Aware UI
+### 类型感知 UI
 
-Different property types render with appropriate controls:
+不同的属性类型会使用合适的控件来渲染：
 
-- **Text and numbers** — simple input fields
-- **Dates** — date picker for easy selection
-- **Status** — dropdown with predefined options
-- **Tags** — tag input with autocomplete
+- **文本和数字** —— 简单的输入框
+- **日期** —— 方便选择的日期选择器
+- **状态** —— 带有预定义选项的下拉菜单
+- **标签** —— 带自动补全的标签输入
 
 ![CleanShot 2026-04-17 at 17.58.11@2x.png](attachments/1776441635173-CleanShot_2026-04-17_at_17.58.11_2x.png)
 
-### Relationships
+### 关系
 
-Wikilink values in frontmatter become clickable links to other notes. The panel shows relationships with a rich interface—click to navigate, see previews, and manage connections.
+frontmatter 中的 wikilink 值会变成可点击的链接，指向其他笔记。面板以富界面展示关系——点击可跳转、查看预览，以及管理连接。
 
-Tolaria also tracks backlinks and reverse relationships
+Tolaria 还会跟踪反向链接和反向关系。
 
 ![CleanShot 2026-04-17 at 18.01.19@2x.png](attachments/1776441716304-CleanShot_2026-04-17_at_18.01.19_2x.png)
 
-### Default Relationships
+### 默认关系
 
-Even if not in the frontmatter, you can add common relationships with one click. This is super opinionated and comes from my own experience. A lot of relationships between notes can simply be modelled as:
+即使 frontmatter 中没有，你也可以一键添加常用关系。这是非常主观的设计，来自我个人的使用经验。笔记之间的很多关系可以简单地建模为：
 
-- ⬆️ **Belongs to** — Parent relationships
-- ➡️ **Related to** — General connections
-- ⬇️ **Has** — Child/possession relationships (inverse of belongs to)
+- ⬆️ **Belongs to**（属于）—— 父级关系
+- ➡️ **Related to**（关联）—— 一般性连接
+- ⬇️ **Has**（包含）—— 子级/从属关系（belongs to 的反向）
 
-These defaults help you quickly add structure without creating complex schemas and remembering property names that need to stay consistent across the vault.
+这些默认值帮助你快速建立结构，而无需创建复杂的 schema，也不必记住需要在整个 vault 中保持一致的属性名。

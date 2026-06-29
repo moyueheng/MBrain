@@ -3,34 +3,34 @@ type: Note
 related_to: "[[tolaria]]"
 onboarding: 7
 ---
-# AI in Tolaria
+# Tolaria 中的 AI
 
-Tolaria embraces AI without making it a requirement. You have options depending on your workflow.
+Tolaria 拥抱 AI，但并不把它作为强制要求。你可以根据自己的工作流选择不同方式。
 
-### AI works without integration
+### AI 无需集成即可使用
 
-Because Tolaria is a file-based vault with an [[agents]] documenting the format, any AI CLI can work well with it. Claude Code, Codex, OpenClaw. or your own assistant—all understand the vault structure.
+因为 Tolaria 是基于文件的 vault，并且有 [[agents]] 文档说明其格式，任何 AI CLI 都能与它良好协作：Claude Code、Codex、OpenClaw，或你自己的助手 —— 都能理解 vault 的结构。
 
-Treat Tolaria notes like any other codebase and prompt naturally.
+把 Tolaria 笔记当作普通的代码库，自然地提示即可。
 
-However, Tolaria also has optional built-in AI integration that uses CLI assistants you already have:
+不过，Tolaria 也提供可选的内置 AI 集成，会调用你已经安装的 CLI 助手：
 
-### Quick Prompt Mode
+### Quick Prompt Mode（快速提问模式）
 
-Press Cmd+K, then type a space to enter quick prompt mode in the Command Palette. Add wikilinks to pass note context. Great for disposable questions and one-off tasks.
+按 Cmd+K，然后输入一个空格，即可在命令面板中进入 Quick Prompt Mode。添加 wikilinks 来传入笔记上下文。适合一次性提问和临时任务。
 
-![CleanShot 2026-04-17 at 15.39.34@2x.png](attachments/1776433419379-CleanShot_2026-04-17_at_15.39.34_2x.png)
+![CleanShot 2026-04-17 at 15.39.34@2x.png](./attachments/1776433419379-CleanShot_2026-04-17_at_15.39.34_2x.png)
 
-You can reference existing notes by typing [[ and selecting from the autocomplete.
+你可以输入 [[ 并从自动补全中选择，引用已有的笔记。
 
-### AI Panel
+### AI Panel（AI 面板）
 
-Click the AI icon in the breadcrumb bar to open the full AI panel. This gives you persistent conversation history with your AI agent.
+点击面包屑栏中的 AI 图标可打开完整的 AI 面板，它能保留与 AI agent 的持续对话历史。
 
-![CleanShot 2026-04-17 at 17.52.52@2x.png](attachments/1776441193704-CleanShot_2026-04-17_at_17.52.52_2x.png)
+![CleanShot 2026-04-17 at 17.52.52@2x.png](./attachments/1776441193704-CleanShot_2026-04-17_at_17.52.52_2x.png)
 
-### Connection Status
+### 连接状态
 
-The bottom bar shows the available connections with AI agents. Right now you can switch between Claude Code and Codex
+底部栏会显示当前可用的 AI agent 连接。目前你可以在 Claude Code 和 Codex 之间切换。
 
-![CleanShot 2026-04-17 at 17.46.02@2x.png](attachments/1776440809229-CleanShot_2026-04-17_at_17.46.02_2x.png)
+

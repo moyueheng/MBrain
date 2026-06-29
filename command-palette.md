@@ -3,16 +3,16 @@ type: Note
 related_to: "[[tolaria]]"
 onboarding: 9
 ---
-# Command Palette
+# 命令面板
 
-One of [[tolaria-principles]] is being keyboard-first. Almost everything has shortcuts.
+[[tolaria-principles]] 的核心理念之一是键盘优先。几乎所有操作都有快捷键。
 
-You can discover shortcuts from the mac menu and from tooltips on buttons.
+你可以通过 Mac 菜单栏和按钮上的 tooltip 来发现快捷键。
 
-A lot of actions also have a fall back or a quick way to do them via the command palette, which you can open with `cmd+K`
+许多操作还提供了备用方式或快捷入口，可以通过命令面板来完成，使用 `cmd+K` 即可打开。
 
-You can really do almost everything with it, including navigating to sections, creating new notes of a certain type, or perform routine actions.
+你几乎可以用它完成所有操作，包括导航到不同部分、创建特定类型的新笔记，或执行日常操作。
 
-You don’t even need to find the exact keywords — the palette is smart enough to match a lot of commands semantically:
+你甚至不需要记住精确的关键词——命令面板足够智能，能够进行语义匹配：
 
 ![CleanShot 2026-04-17 at 18.08.40@2x.png](attachments/1776442178567-CleanShot_2026-04-17_at_18.08.40_2x.png)
